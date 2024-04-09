@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      #avatar {
+        width: 40rem;
+        height: 35rem;
+        background-color: red;
+      }
+      #name {
+        width: 40rem;
+        height: 3rem;
+        margin: 2rem;
+        background-color: yellow;
+        font-weight: larger;
+        font-size: larger;
+      }
+      button {
+        background-color: blue;
+        color: white;
+        padding: 1rem;
+        font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Enter The Name and Click Change Button <br />
+      Then A Unique Avatar will appear
+    </h1>
+    <div>
+      <input id="name" placeholder="Enter The Name Here" /> 
+      <button id="change" >Change</button><button id="reset" >Reset</button><br />
+    </div>
+    <image id="avatar" src="fraud2.png" />
+    <script src="apiImage.js"></script>
+  </body>
+</html>
