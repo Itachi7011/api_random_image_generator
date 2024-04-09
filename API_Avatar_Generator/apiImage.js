@@ -7,7 +7,7 @@ $(document).ready(function(){
         // $("#name").val('');
     }
    )
-
+   
    $("#reset").click(
     function(){
 
